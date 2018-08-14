@@ -23,5 +23,5 @@ urlpatterns = [
     path('other/', views.other_page, name='other'),
     re_path(r'^relative/$', views.relative, name='relative'),
     path('register/', views.register, name='register'),
-    path('login/', views.user_login, name='login_page'),
+    path('login/', views.login_page, name='login_page'),
 ]
